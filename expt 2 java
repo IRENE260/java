@@ -1,0 +1,88 @@
+/*import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		int n,i,min;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number of elements ");
+		n=sc.nextInt();
+		int arr[]=new int[n];
+		System.out.println("Enter the elements");
+		for(i=0;i<n;i++)
+		{
+		    arr[i]=sc.nextInt();
+		}
+		min=arr[0];
+		for(i=0;i<n;i++)
+		{
+		    if (arr[i]<min)
+		    min=arr[i];
+		}
+ 		System.out.println("Smallest element :"+min);
+	}
+}/*	
+	
+	}
+// */
+           
+/*import java.util.*;
+public class Main
+{
+    public static void main(String args[]){
+        int a,b,i,n;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number of elements");
+        n=sc.nextInt();
+        int arr[]=new int[n];
+        System.out.println("Enter the elements ");
+        for(i=0;i<n;i++)
+        {
+            arr[i]=sc.nextInt();
+            
+        }
+        System.out.println("Enter the position to be changed");
+        b=sc.nextInt();
+        System.out.println("Enter the number in that position");
+        a=sc.nextInt();
+        for(i=0;i<n;i++)
+        arr[b]=a;
+        System.out.println("Array is");
+        for(i=0;i<n;i++)
+        System.out.println(arr[i]);
+    }
+}*/
+/*import java.util.*;
+public class Main
+{
+    public static void main(String args[])
+    {
+        int n,j,i,temp;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number of elements");
+        n=sc.nextInt();
+        int a[]=new int[n];
+        System.out.println("Enter the elements ");
+        for(i=0;i<n;i++)
+        {
+            a[i]=sc.nextInt();
+        }
+        for(i=0;i<n-1;i++)
+        {
+          for(j=0;j<n-i-1;j++)
+          {
+              if(a[j]>a[j+1])
+              {
+                  temp=a[j];
+                  a[j]=a[j+1];
+                  a[j+1]=temp;
+              }
+          }
+        }
+       System.out.println("Largest"+a[n-2]) ;
+    }
+} */          
+           
+           
+           
+           
+           
