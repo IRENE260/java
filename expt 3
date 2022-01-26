@@ -1,0 +1,44 @@
+/*5
+import java.util.*;
+public class Main
+{
+    public static void main(String args[]){
+        shapes obj=new shapes(5);
+        shapes obj1=new shapes(5,4);
+        
+    }
+    shapes(int a)
+    {
+        System.out.prinln("perimeter is"+(3.14*2*a))
+        
+    }
+    shapes(int n,int m)
+    {
+        int p=n+m;
+        int t=2*p;
+        System.out.println("perimeter of rectangle"+t);
+    }
+
+
+}*/
+
+/*7.import java.util.*;
+class emp
+{
+    public static void main(String args[]){
+        Scannner obj=new Scanner (System.in);
+        for(inti=1;i<=5;i++)
+        {
+            System.out.println("details of employee"+i);
+            System.out.println("Enter the employee number");
+            int n=obj.nextInt();
+            System.out.println("Name");
+            String name=obj.next();
+            System.out.prinln("phone number")
+            String y=obj.next();
+        }
+    }
+    
+    
+    
+}
