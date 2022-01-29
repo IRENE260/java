@@ -33,6 +33,39 @@ public class Main
 		t.number();
 		h.number();
 	}
+	4.
+import java.util.*;
+class employee
+{
+    void display()
+    {
+        System.out.println("class :employee)";
+    }
+    void salary()
+    {
+        System.out.println("Salary of employee is 10000");
+        
+    }
+}
+class engineer extends employee
+{
+    void display()
+    {
+        super.display();
+        super.salary();
+        System.out.println("Salary is 20000")
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+		engineer obj=new engineer();
+		obj.display();
+		obj.salary();
+		
+	}
+}
+
 }
 3.
 import java .util.*;
