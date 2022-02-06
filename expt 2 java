@@ -1,3 +1,4 @@
+to fid smallest element in the array 
 /*import java.util.*;
 public class Main
 {
@@ -25,7 +26,7 @@ public class Main
 	}
 // */
            
-/*import java.util.*;
+to repalce an element /*import java.util.*;
 public class Main
 {
     public static void main(String args[]){
@@ -33,6 +34,8 @@ public class Main
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number of elements");
         n=sc.nextInt();
+	
+	
         int arr[]=new int[n];
         System.out.println("Enter the elements ");
         for(i=0;i<n;i++)
@@ -50,7 +53,7 @@ public class Main
         for(i=0;i<n;i++)
         System.out.println(arr[i]);
     }
-}*/
+}*/to find largest element in the array
 /*import java.util.*;
 public class Main
 {
@@ -80,8 +83,60 @@ public class Main
         }
        System.out.println("Largest"+a[n-2]) ;
     }
-} */          
-           
+} */ 
+to find frequency of element in the array
+import java.util.*;
+class freq
+{
+  public static void main(String args[])
+  {
+     int freq=0;
+     Scanner sc=new Scanner (System.in);
+     System.out.println("Enter the string");
+     String str=obj.nextInt();
+     System.out.println("Enter the character to be checked"):
+     char a=obj.next().charAt(0);
+     int len=Str.length();
+     for(int i=0;i<len;i++)
+     {
+         if (a==str.char(i)
+	 {  
+	    System.out.println("position of character ",i+1);
+	    freq++:
+	  }
+	  System.out.println("Frequency is :"+freq);
+  }
+}
+ to find trace 
+ import java .util.*;
+ class trace
+ { 
+   public static void main(String args[])
+   {
+     int i,j,t=0;
+     Scanner obj=new Scanner (System.in):
+     System.out.println("Enter the order of matrix");
+     int m=obj.nextInt();
+     int [][]a=new int[30][30];
+     System.out.println("Enter the elements ");
+     for(i=0;i<m;i++)
+     {
+       for(j=0;j<m;j++)
+       {
+         a[i][j]=obj.nextInt();
+       }
+     }
+     for(i=0;i<m;i++)
+     {
+       trace=trace+a[i][i];
+     }
+    System.out.println("trace"+trace);  
+   }
+ }  
+   
+   
+   
+ 
            
            
            
