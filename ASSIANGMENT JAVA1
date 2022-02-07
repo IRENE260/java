@@ -66,3 +66,39 @@ class student
         }
         
     }
+OUTPUT;
+NAME:BINDU
+Rollno:22
+Age:19
+Phone number:
+345678
+CGPA:7.68
+NAME:CIA
+Rollno:23
+Age:20
+Phone number:31234333
+CGPA:8.9
+NAME:ASHWIN
+Age:16
+Phone number:88383838383
+CGPA:9.4
+NAME:DANI
+Rollno:$%
+Age:20
+Phone number:909090909090
+CGPA:9.5
+NAME:PRIYA
+Age:21
+Phone number:8986766788
+CGPA:6.7
+NAME:ANU
+Age:20
+Phone number:6767676767
+CGPA:6.7
+NAME:ANI
+Age: 25
+Phone number:29292929
+CGPA:8.7
+student with highest cgpa:PRIYA
+phone number of anu:6767676767
+roll no of youngest :88383838383
