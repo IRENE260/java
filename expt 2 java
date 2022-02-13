@@ -152,21 +152,10 @@ public class Trace
         }
         System.out.println(sum);  
         System.out.println("The Normal of the above matrix is "); 
-   	for(i = 0; i < row; i++)
-   	{
-    	    for(j = 0; j < column; j++)
-       	    {
-       	        square = square + (array[i][j])*(array[i][j]);
-            }
-    	}
-        result = Math.sqrt(square);
-        System.out.println(result);
+   	
     }
 }
-Output:
 
-$ javac Trace.java
-$ java Trace
  
 Enter total rows and columns: 
 3
