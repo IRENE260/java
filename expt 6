@@ -1,0 +1,18 @@
+import java.util.*;
+class exception
+{ 
+     public static void main(String args[])throws ArithmeticException
+     {
+       int i;
+       Scanner sc=new Scanner(System.in);
+       System.out.println("Enter two integers");
+       int n=sc.nextInt();
+       int p=sc.nextInt();
+       System.out.println("result:"+n/p);
+     }
+ }    
+ Enter two integers
+2
+0
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at exception.main(exception.java:11)
