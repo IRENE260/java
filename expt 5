@@ -1,0 +1,37 @@
+import java.util.*;
+import java.io.*;
+class file
+{
+	    public static void main(String args[])throws IOException
+	    	{
+	    	      	int j=1;
+	    	     	char ch;
+	    	     	int nw=0;
+	    	     	Scanner sc=new Scanner (System.in);
+	    	     	System.out.println("Enter the document name");
+	    	     	String str=sc.next();
+	    	     	FileInputStream r=new FileInputStream(str);
+	    	     	System.out.println("Contents of file are:");
+	    	     	int n=r.available();
+	    	     	System.out.println(j+" ");
+	    	     	for(int i=0;i<n;i++)
+	    	   	   {
+	    	      		  ch=(char)r.read();
+	    	      		  System.out.println(ch);
+	    	      		  if (ch== '\n')
+	    	      		 
+	    	      		   {
+	    	        		  System.out.println(" "+j);
+	    	        		  j++;
+	    	       		   }
+	    	           }
+	    	  }
+	 
+}
+	
+  output 
+  Enter the document name
+file.txt
+Contents of file are:
+1 rija
+2.nimmi
