@@ -35,4 +35,15 @@ class exception1
        System.out.println(a[i]);  
      }  
  }   
- 
+ Enter the number of elements in the array
+3
+Enter the elements in the array
+1
+2
+3
+1
+2
+3
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
+	at exception1.main(exception1.java:17)
+
