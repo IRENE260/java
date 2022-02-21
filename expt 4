@@ -67,20 +67,3 @@ public class Main
 }
 
 }
-3.
-import java .util.*;
-public class cde{
-    public static void main(String args[])
-    {
-        garex obj1= new garex();
-        garex obj2=new garex();
-        garex obj 3=new garex();
-        obj1=obj2;
-        obj3=null;
-        System.gc();
-        
-    }
-    public void finalize(){
-        System.out.println("garbage collected");
-    }
-}
