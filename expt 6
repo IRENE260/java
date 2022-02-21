@@ -47,7 +47,7 @@ Enter the elements in the array
 3
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
 	at exception1.main(exception1.java:17)
-import java.io.*;
+c.import java.io.*;
 class  cde
 {
 	public static void main(String[] args) throws Exception
@@ -70,6 +70,7 @@ class  cde
 
 OUTPUT
 java.io.FileNotFoundException: test 3.txt (No such file or directory)
+2.
 import java.util.*;
 class BalanceException extends Exception
 {
