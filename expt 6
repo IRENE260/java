@@ -70,3 +70,34 @@ class  cde
 
 OUTPUT
 java.io.FileNotFoundException: test 3.txt (No such file or directory)
+import java.util.*;
+class BalanceException extends Exception
+{
+	BalanceException(String str)
+	{
+	    super(str);
+	}
+}
+public class Main
+{
+	public static void main(String[] args ) throws MinimumBalanceException
+	{
+		try{
+		    int a = 100;
+		    if(a<500)
+			  throw new MinimumBalanceException("\n LOW BALANCE!!!");
+		
+		}
+		catch(MinimumBalanceException e)
+		{
+			 System.out.println(e);
+			 
+			 
+		}
+	}
+}
+
+/*
+OUTPUT
+MinimumBalanceException: 
+ LOW BALANCE!!!
