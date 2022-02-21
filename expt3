@@ -28,7 +28,13 @@ class abc
             m=c/10;
         } System.out.println("Sum is :"+sum);
     }
-} */   
+    
+}
+output:
+result:2
+sum:6
+
+*/   
  /*1.import java.util.*;
  class student
  {
@@ -67,7 +73,18 @@ public class Main{
          m.read(m);
          m.display(m);
      }
-}*/ 
+}
+output:
+name:arathi
+rollno:2
+marks:
+23
+24
+24
+25
+22
+
+*/ 
 /*3import java.util.*;
 class abc
 {
@@ -109,7 +126,14 @@ class abc
           s1.freq(s);
           s1.stringrev(s);
       }
-  }*/
+  }
+ output
+ enter the string:welcome to java
+ enter the character:o
+ frequency :3
+ reversed string:avaj ot emoclew
+  
+  */
 /*4.import java.util.*;
 public class main{
     public static void main(String args[]);
@@ -150,3 +174,15 @@ void area(double u,double x)
     System.out.println("area"+(0.5*u*x));
 }
 }*/
+output:
+circle
+radius:4
+area:50.24
+rectangle:
+length:3
+breadth:4
+area:12
+triangle
+base:5
+height:4
+area :10
