@@ -33,6 +33,7 @@ class abc
 output:
 result:2
 sum:6
+
 import java.util.*;
 class concatenate
 {
