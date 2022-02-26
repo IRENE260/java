@@ -36,7 +36,7 @@ Contents of file are:
 1 rija
 2.nimmi
 3. 
-#include<stdio.h>
+
 import java.io.*;
 import java.util.*;
 class file3
@@ -47,7 +47,7 @@ class file3
   {
    FileWriter fw=new FileWriter("/home/s3d1/s3d28/file3.txt");
    FileReader fr=new FileReader("/home/s3d1/s3d28/file3.txt");      
-   fw.write("Name:Duethy Elsa Mathews\n");
+   fw.write("Name:Irene Ann Jacob\n");
    fw.write("Address:Ayyankovil\n");
    fw.close();
    int i;
@@ -61,3 +61,43 @@ class file3
   {System.out.println("Exception occured");}
  }
 }
+2.
+import java.io.*;
+class Main
+{
+ public static void main(String args[])
+ {
+  try
+  {
+   FileReader f1=new FileReader("test1.txt");
+   BufferedReader b=new BufferedReader (f1);
+   int l=0,w=0,c=0;
+   String s=y.readLine();
+   while(s!=null)
+   {
+    l++;
+    String[] word=s.split(" ");
+    w=w+word.length;
+    for(String i:word)
+    {
+     c=c+i.length();
+    }
+    s=y.readLine();
+   }
+   System.out.println("Number of lines:"+l);
+   System.out.println("Number of words :"+w); 
+   System.out.println("Number of characters :"+c);
+  }
+  catch(Exception e)
+  {System.out.println("Exception occured");}
+ }
+}
+
+
+
+/*
+Output:
+Number of lines:
+Number of words :10
+Number of characters :47
+*/
