@@ -1,3 +1,4 @@
+1.
 import java.util.*;
 import java.io.*;
 class file
@@ -34,9 +35,9 @@ class file
 file.txt
 Contents of file are:
 1 rija
-2.nimmi
-3. 
+2.nimmi 
 
+3.
 import java.io.*;
 import java.util.*;
 class file3
