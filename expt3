@@ -68,9 +68,9 @@ Enter numbers:
 9
 After addition - 16
 Enter strings:
-hello
-world
-After addition - helloworld
+java
+programs
+After addition - javaprograms
 
 */   
  /*1.import java.util.*;
@@ -218,9 +218,130 @@ radius:4
 area:50.24
 rectangle:
 length:3
-breadth:4
-area:12
+breadth:6
+area:18
 triangle
 base:5
 height:4
 area :10
+import java.util.*;
+class employee
+{
+ int empno;
+ String name;
+ long phn;
+ Scanner obj = new Scanner(System.in);
+ public static void main(String args[])
+ {
+  employee e[] = new employee[5];
+  for(int i=0;i<5;i++)
+  {
+   e[i]= new employee();
+   e[i].read();
+  } 
+  System.out.println("Details");
+  for(int i=0;i<5;i++)
+  {
+   e[i].print();
+  } 
+ }
+ void read()
+ {
+  System.out.println("Enter name,employee_number,phone_number");
+  this.name = obj.nextLine();
+  this.empno = obj.nextInt();
+  this.phn = obj.nextLong();
+ } 
+ void print()
+ {
+  System.out.println("Name:"+this.name+"\nEmployee No.:"+this.empno+"\nPh.No:"+this.phn);
+ 
+ }
+}
+
+/*
+Output:
+Enter name,employee_number,phone_number
+remo
+45
+9578432569
+Enter name,employee_number,phone_number
+dada
+2
+984567230
+Enter name,employee_number,phone_number
+Fafa
+78
+8547673450
+Enter name,employee_number,phone_number
+ Jimmy
+98
+9496957286
+Enter name,employee_number,phone_number
+Sanju 
+5
+8457273697
+Details
+Name:remo
+Employee No.:45
+Ph.No:9578432569
+
+Name:dada
+Employee No.:2
+Ph.No:984567230
+Name:Fafa
+Employee No.:78
+Ph.No:8547673450
+
+Name: Jimmy
+Employee No.:98
+Ph.No:949695728
+Name:Sanju 
+Employee No.:5
+Ph.No:8457273697
+
+*/
+import java.util.*;
+class perimeters
+{
+ public static void main(String args[])
+ {
+  Scanner in = new Scanner(System.in);
+  System.out.println("Circle:-\nRadius:");
+  int r = in.nextInt();
+  perimeter ob = new perimeter(r);
+  System.out.println("Rectangle:-\nLength:");
+  int l = in.nextInt();
+  System.out.println("Breadth:");
+  int b = in.nextInt();
+  ob = new perimeter(l,b);
+  
+ }
+}
+class perimeter
+{
+ perimeter(int a)
+ {
+  double p=3.14*2*a;
+  System.out.println("Perimeter = "+p); 
+ }
+ perimeter(int x,int y)
+ {
+  System.out.println("Perimeter = "+(2*(x+y)));
+ } 
+}
+
+
+/*
+Output:
+Circle:-
+Radius:
+5
+Perimeter = 31.400000000000002
+Rectangle:-
+Length:
+4
+Breadth:
+5
+Perimeter = 18
+*/
