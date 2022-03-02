@@ -49,7 +49,7 @@ class file3
    FileWriter fw=new FileWriter("/home/s3d1/s3d28/file3.txt");
    FileReader fr=new FileReader("/home/s3d1/s3d28/file3.txt");      
    fw.write("Name:Irene Ann Jacob\n");
-   fw.write("Address:Ayyankovil\n");
+   fw.write("Address :asssdd");
    fw.close();
    int i;
    while((i=fr.read())!=-1)
