@@ -1,2 +1,1 @@
-# demod
-Student at KTU University
+c programming examples
